@@ -1,4 +1,4 @@
-# Code Kata - Vending Machine
+# Code Kata - Document Repository
 
 **Problem**: Document Repository
 
