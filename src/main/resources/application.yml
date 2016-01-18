@@ -1,0 +1,11 @@
+# Base application configuration. 
+# Used to determine which service implementations are injected into the application.
+application:
+   services:
+      outputServiceName: simpleTextOutputService
+      repositoryServiceName: inMemoryRepositoryService
+      # repositoryServiceName: filesystemRepositoryService
+      commandProcessorServiceName: defaultCliCommandProcessorService
+      # commandProcessorServiceName: jsonCliCommandProcessorService
+      dataProvisioningServiceName: demoDataProvisioningService
+      # dataProvisioningServiceName: defaultDataProvisioningService
